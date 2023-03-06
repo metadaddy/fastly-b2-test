@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+/bin
+/pkg
+.idea
+bucket_auth.json

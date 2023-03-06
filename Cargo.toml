@@ -1,0 +1,18 @@
+[package]
+name = "fastly-b2-rust"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+debug = 1
+
+[dependencies]
+fastly = "^0.9.1"
+regex = "1.4.2"
+cfg-if = "1.0.0"
+lazy_static = "1.4.0"
+# required for awsv4 sig gen
+chrono = "0.4.19"
+hmac-sha256 = "1.1.6"
+hex = "0.4.2"
+urlencoding = "2.1.2"
